@@ -13,6 +13,9 @@ def hello():
 @app.route('/manoj')
 def helloManoj():
     return 'Hello Manoj Maharana'
+@app.route('/murtuza')
+def helloMurtuza():
+    return 'Hello MUrtuza'
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8080)
