@@ -18,7 +18,7 @@ def helloMurtuza():
     return 'Hello MUrtuza'
 
 @app.route('/amit')
-def helloMurtuza():
+def helloAmit():
     return 'Hello Amit Das'
 
 if __name__ == "__main__":
