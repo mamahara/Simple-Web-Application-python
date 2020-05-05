@@ -13,6 +13,7 @@ def hello():
 @app.route('/manoj')
 def helloManoj():
     return 'Hello Manoj Maharana'
+
 @app.route('/murtuza')
 def helloMurtuza():
     return 'Hello MUrtuza'
