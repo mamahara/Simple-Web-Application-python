@@ -22,9 +22,9 @@ def helloMurtuza():
 def helloAmit():
     return 'Hello Amit Das'
 
-@app.route('/teena')
-def helloTeena():
-    return 'Hello Teena'
+@app.route('/hitesh')
+def helloHitesh():
+    return 'Hello Hitesh'
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8080)
