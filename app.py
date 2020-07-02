@@ -20,7 +20,7 @@ def helloMurtuza():
 
 @app.route('/amit')
 def helloAmit():
-    return 'Hello Amit Das'
+    return 'HIiiiii Amit Das'
 
 @app.route('/hitesh')
 def helloHitesh():
